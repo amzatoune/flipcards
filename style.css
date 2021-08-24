@@ -242,9 +242,6 @@
       color: #e97d68;
       background-color: transparent;
     }
-    .cd-secondary-theme .cd-pricing-header {
-      color: #FFFFFF;
-    }
     .cd-pricing-header h2 {
       font-size: 1.8rem;
       letter-spacing: 2px;
@@ -281,12 +278,6 @@
     }
     .cd-popular .cd-currency, .cd-popular .cd-duration {
       color: #e97d68;
-    }
-    .cd-secondary-theme .cd-currency, .cd-secondary-theme .cd-duration {
-      color: #2e80a7;
-    }
-    .cd-secondary-theme .cd-popular .cd-currency, .cd-secondary-theme .cd-popular .cd-duration {
-      color: #ba6453;
     }
   
     .cd-currency {
@@ -354,13 +345,7 @@
       display: inline-block;
       margin-bottom: 0;
     }
-    .cd-has-margins .cd-popular .cd-pricing-features li, .cd-secondary-theme .cd-popular .cd-pricing-features li {
+    .cd-has-margins .cd-popular .cd-pricing-features li {
       margin: 0;
-    }
-    .cd-secondary-theme .cd-pricing-features li {
-      color: #FFFFFF;
-    }
-    .cd-secondary-theme .cd-pricing-features li:nth-of-type(2n+1) {
-      background-color: transparent;
     }
   }
