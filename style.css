@@ -178,6 +178,7 @@
     border-radius: 100px;
     font: inherit;
     border: none;
+    transform: translate(-50%, -50%);
     position: relative;
     transform-style: preserve-3d;
     transition: 300ms ease;
@@ -363,45 +364,3 @@
       background-color: transparent;
     }
   }
-  
-  .cd-pricing-footer {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    /* on mobile it covers the .cd-pricing-header */
-    height: 80px;
-    width: 100%;
-  }
-  .cd-pricing-footer::after {
-    /* right arrow visible on mobile */
-    content: '';
-    position: absolute;
-    right: 1em;
-    top: 50%;
-    bottom: auto;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    height: 20px;
-    width: 20px;
-    background: url(../img/cd-icon-small-arrow.svg);
-  }
-  @media only screen and (min-width: 768px) {
-    .cd-pricing-footer {
-      position: relative;
-      height: auto;
-      padding: 1.8em 0;
-      text-align: center;
-    }
-    .cd-pricing-footer::after {
-      /* hide arrow */
-      display: none;
-    }
-    .cd-has-margins .cd-pricing-footer {
-      padding-bottom: 0;
-    }
-  }
-  
